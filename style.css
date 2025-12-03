@@ -1,0 +1,71 @@
+/* Sivun yleinen tausta */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  background-image: url('kuvat/taustakuva.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 40px 20px;
+  color: #333;
+}
+
+/* Sovelluksen päälaatikko */
+main {
+  max-width: 600px;
+  background: rgba(230, 230, 255, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Otsikon tyyli */
+h1 {
+  color: #5a4fcf;
+}
+
+/* Virheilmoitus */
+#error-message {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/* Tehtävälistan rivit */
+#todo-list li {
+  margin-bottom: 8px;
+  border-left: 5px solid #5a4fcf;
+}
+
+/* Valmiiksi merkityt tehtävät */
+#todo-list li.done {
+  text-decoration: line-through;
+  color: #999;
+  background-color: #e0e0e0 !important;
+  border-left-color: #999;
+}
+
+/* Tehtävän tekstin tyyli */
+.tehtava-teksti {
+  flex: 1;
+  word-break: break-word;
+}
+
+/* Laskurin tyyli */
+#counter {
+  color: #5a4fcf;
+}
+
+/* Virheellinen syöte */
+input.error {
+  border-color: #e74c3c;
+  background-color: #ffe6e6;
+}
+
+/* Progress bar */
+.progress {
+  height: 25px;
+}
+.progress-bar {
+  font-weight: bold;
+}
