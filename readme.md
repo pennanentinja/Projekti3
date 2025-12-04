@@ -8,9 +8,9 @@ Tekijä: Tinja Pennanen
 ---
 
 ## 🔗 Verkkolinkit
-- **Julkaistu sovellus:** [Katso sovellus Netlifyssa](https://tehtavalistajava.netlify.app/)
-- **Esittelyvideo:** [Katso demovideo Laurean videopalvelussa](https://video.laurea.fi/media/Teht%C3%A4v%C3%A4lista/0_zhru9jvi)
-- **GitHub-repositorio:** [Avaa GitHub-projekti](https://github.com/pennanentinja/ToDo-java)
+- **Julkaistu sovellus:** [Katso sovellus Netlifyssa](https://jquery3tinja.netlify.app/)
+- **Esittelyvideo:** [Katso demovideo Laurean videopalvelussa]()
+- **GitHub-repositorio:** [Avaa GitHub-projekti](https://github.com/pennanentinja/Projekti3)
 
 ---
 
