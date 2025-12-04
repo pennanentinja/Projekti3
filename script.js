@@ -50,7 +50,6 @@ $(document).ready(function() {
           </div>
         </li>
       `);
-      // Animaatio: uusi tehtävä ilmestyy pehmeästi
       $li.hide().appendTo("#todo-list").fadeIn(300);
     });
     paivitaLaskuri();
@@ -79,7 +78,6 @@ $(document).ready(function() {
   $("#todo-list").on("click", ".merkitse", function() {
     const i = $(this).data("index");
     tehtavat[i].valmis = !tehtavat[i].valmis;
-    // Animaatio: fadeOut ennen uudelleenpiirtoa
     $(this).closest("li").fadeOut(200, function() {
       piirraTehtavat();
     });
@@ -88,7 +86,6 @@ $(document).ready(function() {
   // Tehtävän poisto
   $("#todo-list").on("click", ".poista", function() {
     const i = $(this).data("index");
-    // Animaatio: fadeOut ennen poistamista
     $(this).closest("li").fadeOut(300, function() {
       tehtavat.splice(i, 1);
       piirraTehtavat();
