@@ -9,7 +9,7 @@ Tekijä: Tinja Pennanen
 
 ## 🔗 Verkkolinkit
 - **Julkaistu sovellus:** [Katso sovellus Netlifyssa](https://jquery3tinja.netlify.app/)
-- **Esittelyvideo:** [Katso demovideo Laurean videopalvelussa]()
+- **Esittelyvideo:** [Katso demovideo Laurean videopalvelussa](https://video.laurea.fi/media/Projekti3demovideo/0_tv7aglqz)
 - **GitHub-repositorio:** [Avaa GitHub-projekti](https://github.com/pennanentinja/Projekti3)
 
 ---
